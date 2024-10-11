@@ -1,0 +1,132 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* section-A start */
+.section-A{
+    background: linear-gradient(to left, #00c853, white) ;
+    height: 600px;
+   
+}
+
+header{
+    background: linear-gradient(to left, #00c853, white) ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+   font-size: 24px;
+   padding: 12px;
+   font-weight: bolder;
+   margin-left: 20px;
+}
+.logo span{
+    color: #00c853;
+
+}
+    
+nav{
+    display: flex;
+    padding: 10px;
+
+}
+nav ul li{
+    list-style: none;
+    display: inline; 
+    padding-left: 12px;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+ #Home{
+    color: white;
+   
+}
+ li a:hover,
+ li label:hover{
+    color: white;
+}
+.login{
+    padding: 12px;
+    font-size: 24px;
+    margin-right: 30px;
+    color: white;
+    border-radius: 90%;
+    background-color: #333;
+}
+
+/* .img-A{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    right: 100px;
+    
+}  */
+.mxa{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+ h1{
+    color: #00c853;
+
+
+} 
+h1 span{
+    color: #333;
+    margin-left: 35px;
+    padding-top: 10px;
+    
+}
+
+p{
+    font-size: 20px;
+    opacity: 0.9;
+   
+}
+
+.read{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #00c853;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+   border: none;
+   cursor: pointer;
+   margin-top: 20px;
+}
+.read:hover{
+    background-color: #23fc67;
+}
+.contact{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: white;
+    color: #00c853;
+    text-transform:capitalize;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.contact:hover{
+    background-color: aliceblue;
+}
+
+.p8{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    width: 500px;
+    height: 300px;
+}
+/* section-A end */
